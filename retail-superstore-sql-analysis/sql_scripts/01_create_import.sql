@@ -23,6 +23,6 @@ CREATE TABLE superstore (
     profit NUMERIC(10, 4)
 );
 
--- 2. Catatan Perintah Impor Data via PSQL Tool (Gunakan baris ini di terminal PSQL)
+-- 2. Catatan Perintah Impor Data via PSQL Tool
 -- SET datestyle TO 'ISO, MDY';
 -- \copy superstore FROM 'C:/lokasi/file/Sample - Superstore.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
