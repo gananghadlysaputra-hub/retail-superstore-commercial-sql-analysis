@@ -1,3 +1,4 @@
+-- 1. Membuat Struktur Tabel (Schema)
 CREATE TABLE superstore (
     row_id INT,
     order_id VARCHAR(50),
@@ -21,3 +22,7 @@ CREATE TABLE superstore (
     discount NUMERIC(4, 2),
     profit NUMERIC(10, 4)
 );
+
+-- 2. Catatan Perintah Impor Data via PSQL Tool (Gunakan baris ini di terminal PSQL)
+-- SET datestyle TO 'ISO, MDY';
+-- \copy superstore FROM 'C:/lokasi/file/Sample - Superstore.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
